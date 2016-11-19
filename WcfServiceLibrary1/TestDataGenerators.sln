@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SexGenerator", "SexGenerato
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhomPassportIssuedGenerator", "WhomPassportIssuedGenerator\WhomPassportIssuedGenerator.csproj", "{DCB8B1AF-B2FA-4585-A2AD-9D7AC898EBB1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreetTypeGenerator", "StreetTypeGenerator\StreetTypeGenerator.csproj", "{7CB6D979-BE12-4A4A-AC4A-B914ABEDD45F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -131,6 +133,14 @@ Global
 		{DCB8B1AF-B2FA-4585-A2AD-9D7AC898EBB1}.Release|Any CPU.Build.0 = Release|Any CPU
 		{DCB8B1AF-B2FA-4585-A2AD-9D7AC898EBB1}.Release|x86.ActiveCfg = Release|Any CPU
 		{DCB8B1AF-B2FA-4585-A2AD-9D7AC898EBB1}.Release|x86.Build.0 = Release|Any CPU
+		{7CB6D979-BE12-4A4A-AC4A-B914ABEDD45F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CB6D979-BE12-4A4A-AC4A-B914ABEDD45F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CB6D979-BE12-4A4A-AC4A-B914ABEDD45F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{7CB6D979-BE12-4A4A-AC4A-B914ABEDD45F}.Debug|x86.Build.0 = Debug|Any CPU
+		{7CB6D979-BE12-4A4A-AC4A-B914ABEDD45F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CB6D979-BE12-4A4A-AC4A-B914ABEDD45F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CB6D979-BE12-4A4A-AC4A-B914ABEDD45F}.Release|x86.ActiveCfg = Release|Any CPU
+		{7CB6D979-BE12-4A4A-AC4A-B914ABEDD45F}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

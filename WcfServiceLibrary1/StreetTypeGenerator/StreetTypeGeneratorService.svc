@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="StreetTypeGenerator.Service1" CodeBehind="StreetTypeGeneratorService.svc.cs" %>
