@@ -41,7 +41,7 @@ http://{host}:{port}/CreditCardNumberGeneratorService.svc/Generate/
 ###Генерация Email по домену
 http://{host}:{port}/EmailGeneratorService.svc/Generate/{domain}
 
-Домен указывается в виде любой строки.
+Домен второго уровня указывается в виде любой строки.
 
 ###Генерация типа населенного пункта
 http://{host}:{port}/LocalityTypeGeneratorService.svc/Generate/
