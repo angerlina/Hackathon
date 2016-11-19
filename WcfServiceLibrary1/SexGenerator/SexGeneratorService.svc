@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="SexGenerator.Service1" CodeBehind="SexGeneratorService.svc.cs" %>
