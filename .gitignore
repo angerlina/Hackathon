@@ -239,6 +239,3 @@ ModelManifest.xml
 .paket/paket.exe
 
 # FAKE - F# Make
-.fake/
-/WcfServiceLibrary1/InnGenerator
-/WcfServiceLibrary1/WcfServiceLibrary1
