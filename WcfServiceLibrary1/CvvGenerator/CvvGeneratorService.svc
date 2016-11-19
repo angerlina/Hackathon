@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="CvvGenerator.Service1" CodeBehind="CvvGeneratorService.svc.cs" %>
