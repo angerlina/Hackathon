@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="RankGenerator.RankGeneratorService" CodeBehind="RankGeneratorService.svc.cs" %>

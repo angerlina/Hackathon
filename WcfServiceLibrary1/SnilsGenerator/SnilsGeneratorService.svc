@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="SnilsGenerator.Service1" CodeBehind="SnilsGeneratorService.svc.cs" %>
