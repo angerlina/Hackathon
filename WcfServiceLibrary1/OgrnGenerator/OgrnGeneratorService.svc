@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="OgrnGenerator.Service1" CodeBehind="OgrnGeneratorService.svc.cs" %>

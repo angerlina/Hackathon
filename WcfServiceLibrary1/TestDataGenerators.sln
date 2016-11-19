@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocalityTypeGenerator", "Lo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InnGenerators", "InnGenerator\InnGenerators.csproj", "{5C7F7027-5624-4303-9F1F-E22D43FBC21A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OgrnGenerator", "OgrnGenerator\OgrnGenerator.csproj", "{676444F1-1EB5-41F1-A407-0A1513434868}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -61,6 +63,14 @@ Global
 		{5C7F7027-5624-4303-9F1F-E22D43FBC21A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5C7F7027-5624-4303-9F1F-E22D43FBC21A}.Release|x86.ActiveCfg = Release|Any CPU
 		{5C7F7027-5624-4303-9F1F-E22D43FBC21A}.Release|x86.Build.0 = Release|Any CPU
+		{676444F1-1EB5-41F1-A407-0A1513434868}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{676444F1-1EB5-41F1-A407-0A1513434868}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{676444F1-1EB5-41F1-A407-0A1513434868}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{676444F1-1EB5-41F1-A407-0A1513434868}.Debug|x86.Build.0 = Debug|Any CPU
+		{676444F1-1EB5-41F1-A407-0A1513434868}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{676444F1-1EB5-41F1-A407-0A1513434868}.Release|Any CPU.Build.0 = Release|Any CPU
+		{676444F1-1EB5-41F1-A407-0A1513434868}.Release|x86.ActiveCfg = Release|Any CPU
+		{676444F1-1EB5-41F1-A407-0A1513434868}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
