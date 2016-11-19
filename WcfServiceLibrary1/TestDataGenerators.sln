@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CadastreGenerator", "Cadast
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RankGenerator", "RankGenerator\RankGenerator.csproj", "{451533B7-BF7F-4F1C-9925-73279982627B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailGenerator", "EmailGenerator\EmailGenerator.csproj", "{4D6F2A1E-B259-439E-B8B5-70F6B1B84203}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -91,6 +93,14 @@ Global
 		{451533B7-BF7F-4F1C-9925-73279982627B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{451533B7-BF7F-4F1C-9925-73279982627B}.Release|x86.ActiveCfg = Release|Any CPU
 		{451533B7-BF7F-4F1C-9925-73279982627B}.Release|x86.Build.0 = Release|Any CPU
+		{4D6F2A1E-B259-439E-B8B5-70F6B1B84203}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D6F2A1E-B259-439E-B8B5-70F6B1B84203}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D6F2A1E-B259-439E-B8B5-70F6B1B84203}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{4D6F2A1E-B259-439E-B8B5-70F6B1B84203}.Debug|x86.Build.0 = Debug|Any CPU
+		{4D6F2A1E-B259-439E-B8B5-70F6B1B84203}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D6F2A1E-B259-439E-B8B5-70F6B1B84203}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D6F2A1E-B259-439E-B8B5-70F6B1B84203}.Release|x86.ActiveCfg = Release|Any CPU
+		{4D6F2A1E-B259-439E-B8B5-70F6B1B84203}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

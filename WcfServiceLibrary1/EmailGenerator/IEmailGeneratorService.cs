@@ -1,16 +1,15 @@
 ﻿using System.ServiceModel;
 using System.ServiceModel.Web;
 
-namespace KppGenerator
+namespace EmailGenerator
 {
     [ServiceContract]
-    public interface IKppGeneratorService
+    public interface IEmailGeneratorService
     {
-
         [OperationContract]
-        [WebInvoke(Method = "GET", UriTemplate = "/Generate",
+        [WebInvoke(Method = "GET", UriTemplate = "/Generate/{value}",
             RequestFormat = WebMessageFormat.Json, ResponseFormat = WebMessageFormat.Json,
             BodyStyle = WebMessageBodyStyle.Wrapped)]
-        string Generate();
+        string Generate(string value);
     }
 }
