@@ -21,14 +21,14 @@ namespace InnGenerator
             if ("individual".Equals(value) || "entity".Equals(value))
             {
                 AddRegion();
-                addTax();
+                AddTax();
 
                 result += _regionCodes[r.Next(0, _regionCodes.Count - 1)];
                 result += _taxCodes[r.Next(0, _taxCodes.Count - 1)];
             }
             if ("individual".Equals(value))
             {
-                result += randomNumber(6);
+                result += RandomNumber(6);
                 int[] massInt = ParseStringInArrayInt(result);
 
                 int number = 7 * massInt[0] + 2 * massInt[1] + 4 * massInt[2] + 10 * massInt[3] + 3 * massInt[4];
@@ -49,7 +49,7 @@ namespace InnGenerator
             }
             if ("entity".Equals(value))
             {
-                result += randomNumber(5);
+                result += RandomNumber(5);
 
                 int[] massInt = ParseStringInArrayInt(result);
                 int number = 2 * massInt[0] + 4 * massInt[1] + 10 * massInt[2] + 3 * massInt[3] + 5 * massInt[4];
@@ -74,7 +74,7 @@ namespace InnGenerator
             return massInt;
 
         }
-        public void AddRegion()
+        private void AddRegion()
         {
             for (int i = 1; i < 100; i++)
             {
@@ -84,7 +84,7 @@ namespace InnGenerator
             _regionCodes.AddRange(n.ToList());
         }
 
-        public void addTax()
+        private void AddTax()
         {
             for (int i = 1; i < 78; i++)
             {
@@ -95,7 +95,7 @@ namespace InnGenerator
         }
 
 
-        public string randomNumber(int count)
+        private string RandomNumber(int count)
         {
             string result = "";
             for (int i = 0; i < count; i++)
