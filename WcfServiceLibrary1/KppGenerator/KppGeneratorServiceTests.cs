@@ -8,8 +8,8 @@ namespace KppGenerator
         [Test]
         public void GenerateTestReturnsString()
         {
-            KppGeneratorService testExemplair = new KppGeneratorService();
-            var result = testExemplair.Generate();
+            KppGeneratorService testExample = new KppGeneratorService();
+            var result = testExample.Generate();
             Assert.IsTrue(result is string);
 
         }
@@ -17,8 +17,8 @@ namespace KppGenerator
         [Test]
         public void GenerateTestReturnsEnoughSymbols()
         {
-            KppGeneratorService testExemplair = new KppGeneratorService();
-            var result = testExemplair.Generate();
+            KppGeneratorService testExample = new KppGeneratorService();
+            var result = testExample.Generate();
             Assert.IsTrue(result.Length == 9);
         }
     }
