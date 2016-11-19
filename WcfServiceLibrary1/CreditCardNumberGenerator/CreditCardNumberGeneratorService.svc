@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="CreditCardNumberGenerator.Service1" CodeBehind="CreditCardNumberGeneratorService.svc.cs" %>

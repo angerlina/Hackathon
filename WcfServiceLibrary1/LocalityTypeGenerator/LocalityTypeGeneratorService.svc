@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="LocalityTypeGenerator.Service1" CodeBehind="LocalityTypeGeneratorService.svc.cs" %>

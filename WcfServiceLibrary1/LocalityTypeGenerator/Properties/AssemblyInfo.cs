@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("RankGenerator")]
+[assembly: AssemblyTitle("LocalityTypeGenerator")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Hewlett-Packard")]
-[assembly: AssemblyProduct("RankGenerator")]
+[assembly: AssemblyProduct("LocalityTypeGenerator")]
 [assembly: AssemblyCopyright("Copyright © Hewlett-Packard 2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("451533b7-bf7f-4f1c-9925-73279982627b")]
+[assembly: Guid("45dd3714-0d99-4011-934f-060f1767a8aa")]
 
 // Version information for an assembly consists of the following four values:
 //

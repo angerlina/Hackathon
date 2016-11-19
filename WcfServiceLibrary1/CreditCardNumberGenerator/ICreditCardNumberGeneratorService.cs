@@ -6,19 +6,15 @@ using System.ServiceModel;
 using System.ServiceModel.Web;
 using System.Text;
 
-namespace RankGenerator
+namespace CreditCardNumberGenerator
 {
-
     [ServiceContract]
-    public interface IRankGeneratorService
+    public interface ICreditCardNumberGeneratorService
     {
         [OperationContract]
         [WebInvoke(Method = "GET", UriTemplate = "/Generate",
             RequestFormat = WebMessageFormat.Json, ResponseFormat = WebMessageFormat.Json,
             BodyStyle = WebMessageBodyStyle.Wrapped)]
         string Generate();
-
     }
-
-
 }
