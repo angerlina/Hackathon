@@ -5,6 +5,7 @@ namespace OgrnGenerator
 {
     public class OgrnGeneratorService : IOgrnGeneratorService
     {
+        Exception ex = new Exception("Введенное значение не является 1 или 2");
         private List<int> _countrySubjectSerialNumbers = new List<int>();
 
         Random rnd = new Random();
@@ -154,8 +155,13 @@ namespace OgrnGenerator
             return Int64.Parse(firstBlock + secondBlock + forthBlock + fifthBlock);
         }
 
-        public string Generate(string param)
+        public string Generate(int intParam)
         {
+            if (intParam != 1 & intParam != 2)
+            {
+                throw ex;
+            }
+            string param = intParam.ToString();
             long number = GenerateNumberWithoutCheckSum(int.Parse(param));
             string preCheckSum = (number % 11).ToString();
             string checkSum = preCheckSum[preCheckSum.Length - 1].ToString();

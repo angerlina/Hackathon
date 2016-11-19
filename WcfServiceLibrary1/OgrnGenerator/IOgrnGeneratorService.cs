@@ -10,6 +10,6 @@ namespace OgrnGenerator
         [WebInvoke(Method = "GET", UriTemplate = "/Generate/{value}",
             RequestFormat = WebMessageFormat.Json, ResponseFormat = WebMessageFormat.Json,
             BodyStyle = WebMessageBodyStyle.Wrapped)]
-        string Generate(string value);
+        string Generate(int value);
     }
 }
