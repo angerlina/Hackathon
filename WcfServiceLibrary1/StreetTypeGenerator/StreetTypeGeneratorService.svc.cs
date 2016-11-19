@@ -1,51 +1,46 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.Serialization;
-using System.ServiceModel;
-using System.ServiceModel.Web;
-using System.Text;
 
 namespace StreetTypeGenerator
 {
     public class StreetTypeGeneratorService : IStreetTypeGeneratorService
     {
-        private List<string> streetTypeList = new List<string>();
+        private List<string> _streetTypeList = new List<string>();
 
         public StreetTypeGeneratorService()
         {
-            streetTypeList.Add("Аллея");
-            streetTypeList.Add("Бульвар");
-            streetTypeList.Add("Набережная");
-            streetTypeList.Add("Переулок");
-            streetTypeList.Add("Площадь");
-            streetTypeList.Add("Проезд");
-            streetTypeList.Add("Просека");
-            streetTypeList.Add("Проспекты");
-            streetTypeList.Add("Тупики");
-            streetTypeList.Add("Шоссе");
-            streetTypeList.Add("Улица");
-            streetTypeList.Add("Авеню");
-            streetTypeList.Add("Взвоз");
-            streetTypeList.Add("Дорожка");
-            streetTypeList.Add("Корниш");
-            streetTypeList.Add("Линия");
-            streetTypeList.Add("Магистраль");
-            streetTypeList.Add("Магистральная улица");
-            streetTypeList.Add("Педвей");
-            streetTypeList.Add("Проспкт");
-            streetTypeList.Add("Разъезд");
-            streetTypeList.Add("Тракт");
-            streetTypeList.Add("Трамвайно-пешеходная улица");
-            streetTypeList.Add("Тупик");
-            streetTypeList.Add("Эспланада");
+            _streetTypeList.Add("Аллея");
+            _streetTypeList.Add("Бульвар");
+            _streetTypeList.Add("Набережная");
+            _streetTypeList.Add("Переулок");
+            _streetTypeList.Add("Площадь");
+            _streetTypeList.Add("Проезд");
+            _streetTypeList.Add("Просека");
+            _streetTypeList.Add("Проспекты");
+            _streetTypeList.Add("Тупики");
+            _streetTypeList.Add("Шоссе");
+            _streetTypeList.Add("Улица");
+            _streetTypeList.Add("Авеню");
+            _streetTypeList.Add("Взвоз");
+            _streetTypeList.Add("Дорожка");
+            _streetTypeList.Add("Корниш");
+            _streetTypeList.Add("Линия");
+            _streetTypeList.Add("Магистраль");
+            _streetTypeList.Add("Магистральная улица");
+            _streetTypeList.Add("Педвей");
+            _streetTypeList.Add("Проспкт");
+            _streetTypeList.Add("Разъезд");
+            _streetTypeList.Add("Тракт");
+            _streetTypeList.Add("Трамвайно-пешеходная улица");
+            _streetTypeList.Add("Тупик");
+            _streetTypeList.Add("Эспланада");
         }
 
         public string Generate()
         {
             Random rnd = new Random();
-            int listIndex = rnd.Next(streetTypeList.Count - 1);
-            return streetTypeList[listIndex];
+            int listIndex = rnd.Next(_streetTypeList.Count - 1);
+            return _streetTypeList[listIndex];
         }
     }
 }
