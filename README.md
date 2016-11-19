@@ -17,34 +17,37 @@
 На данный момент доступ к сервисам возможен только локально с веб-сервером приложений.
 
 ###Генерация номера ИНН
-Для юридических лиц http://(host):(port)/InnGeneratorService.svc/Generate/entity .
-Для физических лиц http://(host):(port)/InnGeneratorService.svc/Generate/individual
+Для юридических лиц http://{host}:{port}/InnGeneratorService.svc/Generate/entity
+
+Для физических лиц http://{host}:{port}/InnGeneratorService.svc/Generate/individual
 
 ###Генерация ОГРН
-Для юридических лиц http://(host):(port)/OGRNGeneratorService.svc/Generate/1 .
-Для ИП http://(host):(port)/OGRNGeneratorService.svc/Generate/2
+Для юридических лиц http://{host}:{port}/OGRNGeneratorService.svc/Generate/1
+
+Для ИП http://{host}:{port}/OGRNGeneratorService.svc/Generate/2
 
 ###Генерация КПП
-http://(host):(port)/OGRNGeneratorService.svc/Generate/
+http://{host}:{port}/OGRNGeneratorService.svc/Generate/
 
 ###Генерация СНИЛС
-http://(host):(port)/SnilsGeneratorService.svc/Generate/
+http://{host}:{port}/SnilsGeneratorService.svc/Generate/
 
 ###Генерация кадастрового номера
-http://(host):(port)/CadastreGeneratorService.svc/Generate/
+http://{host}:{port}/CadastreGeneratorService.svc/Generate/
 
 ###Генерация номера банковской карты
-http://(host):(port)/CreditCardNumberGeneratorService.svc/Generate/
+http://{host}:{port}/CreditCardNumberGeneratorService.svc/Generate/
 
 ###Генерация Email по домену
-http://(host):(port)/EmailGeneratorService.svc/Generate/(domain) 
-Домен указывается в виде любой строки
+http://{host}:{port}/EmailGeneratorService.svc/Generate/{domain}
+
+Домен указывается в виде любой строки.
 
 ###Генерация типа населенного пункта
-http://(host):(port)/LocalityTypeGeneratorService.svc/Generate/
+http://{host}:{port}/LocalityTypeGeneratorService.svc/Generate/
 
 ###Генерация воинского звания
-http://(host):(port)/RankGeneratorService.svc/Generate/
+http://{host}:{port}/RankGeneratorService.svc/Generate/
 
 
 
