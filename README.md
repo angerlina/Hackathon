@@ -16,34 +16,34 @@
 
 На данный момент доступ к сервисам возможен только локально с веб-сервером приложений.
 
-#Генерация номера ИНН
-Для юридических лиц http://(host):(port)/InnGeneratorService.svc/Generate/entity
+###Генерация номера ИНН
+Для юридических лиц http://(host):(port)/InnGeneratorService.svc/Generate/entity .
 Для физических лиц http://(host):(port)/InnGeneratorService.svc/Generate/individual
 
-#Генерация ОГРН
-Для юридических лиц http://(host):(port)/OGRNGeneratorService.svc/Generate/1
+###Генерация ОГРН
+Для юридических лиц http://(host):(port)/OGRNGeneratorService.svc/Generate/1 .
 Для ИП http://(host):(port)/OGRNGeneratorService.svc/Generate/2
 
-#Генерация КПП
+###Генерация КПП
 http://(host):(port)/OGRNGeneratorService.svc/Generate/
 
-#Генерация СНИЛС
+###Генерация СНИЛС
 http://(host):(port)/SnilsGeneratorService.svc/Generate/
 
-#Генерация кадастрового номера
+###Генерация кадастрового номера
 http://(host):(port)/CadastreGeneratorService.svc/Generate/
 
-#Генерация номера банковской карты
+###Генерация номера банковской карты
 http://(host):(port)/CreditCardNumberGeneratorService.svc/Generate/
 
-#Генерация Email по домену
+###Генерация Email по домену
 http://(host):(port)/EmailGeneratorService.svc/Generate/(domain) 
 Домен указывается в виде любой строки
 
-#Генерация типа населенного пункта
+###Генерация типа населенного пункта
 http://(host):(port)/LocalityTypeGeneratorService.svc/Generate/
 
-#Генерация воинского звания
+###Генерация воинского звания
 http://(host):(port)/RankGeneratorService.svc/Generate/
 
 
