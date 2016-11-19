@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="CadastreGenerator.Service1" CodeBehind="CadastreGeneratorService.svc.cs" %>
