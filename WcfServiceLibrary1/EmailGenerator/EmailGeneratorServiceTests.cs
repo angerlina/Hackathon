@@ -6,7 +6,7 @@ namespace EmailGenerator
     public class EmailGeneratorServiceTests
     {
         [Test]
-        public void GeneratorReturnsStringForIndividual()
+        public void GeneratorReturnsStringFor()
         {
             EmailGeneratorService testExample = new EmailGeneratorService();
             var result = testExample.Generate("yandex.ru");
