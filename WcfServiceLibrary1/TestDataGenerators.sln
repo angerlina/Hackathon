@@ -33,6 +33,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetricaGenerator", "Metrica
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PinGenerator", "PinGenerator\PinGenerator.csproj", "{D7119D11-88D0-4972-9162-F2417632383D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContragentTypeGenerator", "ContragentTypeGenerator\ContragentTypeGenerator.csproj", "{9F5C1801-30F1-4A6B-AC3B-7962F05D0AD4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountryGenerator", "CountryGenerator\CountryGenerator.csproj", "{B627040D-243B-4C4C-8DE3-10D34DEE13C1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -161,6 +165,22 @@ Global
 		{D7119D11-88D0-4972-9162-F2417632383D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D7119D11-88D0-4972-9162-F2417632383D}.Release|x86.ActiveCfg = Release|Any CPU
 		{D7119D11-88D0-4972-9162-F2417632383D}.Release|x86.Build.0 = Release|Any CPU
+		{9F5C1801-30F1-4A6B-AC3B-7962F05D0AD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F5C1801-30F1-4A6B-AC3B-7962F05D0AD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F5C1801-30F1-4A6B-AC3B-7962F05D0AD4}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{9F5C1801-30F1-4A6B-AC3B-7962F05D0AD4}.Debug|x86.Build.0 = Debug|Any CPU
+		{9F5C1801-30F1-4A6B-AC3B-7962F05D0AD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F5C1801-30F1-4A6B-AC3B-7962F05D0AD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F5C1801-30F1-4A6B-AC3B-7962F05D0AD4}.Release|x86.ActiveCfg = Release|Any CPU
+		{9F5C1801-30F1-4A6B-AC3B-7962F05D0AD4}.Release|x86.Build.0 = Release|Any CPU
+		{B627040D-243B-4C4C-8DE3-10D34DEE13C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B627040D-243B-4C4C-8DE3-10D34DEE13C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B627040D-243B-4C4C-8DE3-10D34DEE13C1}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B627040D-243B-4C4C-8DE3-10D34DEE13C1}.Debug|x86.Build.0 = Debug|Any CPU
+		{B627040D-243B-4C4C-8DE3-10D34DEE13C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B627040D-243B-4C4C-8DE3-10D34DEE13C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B627040D-243B-4C4C-8DE3-10D34DEE13C1}.Release|x86.ActiveCfg = Release|Any CPU
+		{B627040D-243B-4C4C-8DE3-10D34DEE13C1}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

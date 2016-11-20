@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="ContragentTypeGenerator.Service1" CodeBehind="ContragentTypeGeneratorService.svc.cs" %>
