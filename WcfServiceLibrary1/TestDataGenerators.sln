@@ -29,7 +29,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhomPassportIssuedGenerator
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreetTypeGenerator", "StreetTypeGenerator\StreetTypeGenerator.csproj", "{7CB6D979-BE12-4A4A-AC4A-B914ABEDD45F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetricaGenerator", "MetricaGenerator\MetricaGenerator.csproj", "{940D4367-6D25-4659-BF23-27A4449EA5BA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetricaGenerator", "MetricaGenerator\MetricaGenerator.csproj", "{7203BDA1-9275-40A0-A421-1599974E9470}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -143,14 +143,14 @@ Global
 		{7CB6D979-BE12-4A4A-AC4A-B914ABEDD45F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7CB6D979-BE12-4A4A-AC4A-B914ABEDD45F}.Release|x86.ActiveCfg = Release|Any CPU
 		{7CB6D979-BE12-4A4A-AC4A-B914ABEDD45F}.Release|x86.Build.0 = Release|Any CPU
-		{940D4367-6D25-4659-BF23-27A4449EA5BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{940D4367-6D25-4659-BF23-27A4449EA5BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{940D4367-6D25-4659-BF23-27A4449EA5BA}.Debug|x86.ActiveCfg = Debug|x86
-		{940D4367-6D25-4659-BF23-27A4449EA5BA}.Debug|x86.Build.0 = Debug|x86
-		{940D4367-6D25-4659-BF23-27A4449EA5BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{940D4367-6D25-4659-BF23-27A4449EA5BA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{940D4367-6D25-4659-BF23-27A4449EA5BA}.Release|x86.ActiveCfg = Release|x86
-		{940D4367-6D25-4659-BF23-27A4449EA5BA}.Release|x86.Build.0 = Release|x86
+		{7203BDA1-9275-40A0-A421-1599974E9470}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7203BDA1-9275-40A0-A421-1599974E9470}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7203BDA1-9275-40A0-A421-1599974E9470}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{7203BDA1-9275-40A0-A421-1599974E9470}.Debug|x86.Build.0 = Debug|Any CPU
+		{7203BDA1-9275-40A0-A421-1599974E9470}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7203BDA1-9275-40A0-A421-1599974E9470}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7203BDA1-9275-40A0-A421-1599974E9470}.Release|x86.ActiveCfg = Release|Any CPU
+		{7203BDA1-9275-40A0-A421-1599974E9470}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

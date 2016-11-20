@@ -11,7 +11,7 @@ namespace OgrnGenerator
         public void GeneratorReturnsString()
         {
             OgrnGeneratorService testExample = new OgrnGeneratorService();
-            var result = testExample.Generate(1);
+            var result = testExample.Generate("1");
             Assert.IsTrue(result is string);
         }
 
@@ -19,7 +19,7 @@ namespace OgrnGenerator
         public void GeneratorReturnsResultNotZertLengthForEntity()
         {
             OgrnGeneratorService testExample = new OgrnGeneratorService();
-            string result = testExample.Generate(1);
+            string result = testExample.Generate("1");
             Assert.IsTrue(result.Length != 0);
         }
 
@@ -27,7 +27,7 @@ namespace OgrnGenerator
         public void GeneratorReturnsResultNotZeroLengthForIndividual()
         {
             OgrnGeneratorService testExample = new OgrnGeneratorService();
-            string result = testExample.Generate(2);
+            string result = testExample.Generate("2");
             Assert.IsTrue(result.Length != 0);
         }
     }

@@ -2,7 +2,7 @@
 
 namespace MetricaGenerator
 {
-    public class MetricaGeneratorService
+    public class MetricaGeneratorService : IMetricaGeneratorService
     {
         Random rnd = new Random();
 

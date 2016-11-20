@@ -155,9 +155,9 @@ namespace OgrnGenerator
             return Int64.Parse(firstBlock + secondBlock + forthBlock + fifthBlock);
         }
 
-        public string Generate(int intParam)
+        public string Generate(string intParam)
         {
-            if (intParam != 1 & intParam != 2)
+            if (int.Parse(intParam) != 1 & int.Parse(intParam)!= 2)
             {
                 throw ex;
             }

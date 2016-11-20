@@ -7,12 +7,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{4D6F2A1E-B259-439E-B8B5-70F6B1B84203}</ProjectGuid>
+    <ProjectGuid>{7203BDA1-9275-40A0-A421-1599974E9470}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>EmailGenerator</RootNamespace>
-    <AssemblyName>EmailGenerator</AssemblyName>
+    <RootNamespace>MetricaGenerator</RootNamespace>
+    <AssemblyName>MetricaGenerator</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <WcfConfigValidationEnabled>True</WcfConfigValidationEnabled>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -93,15 +93,15 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="EmailGeneratorService.svc" />
+    <Content Include="MetricaGeneratorService.svc" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="EmailGeneratorService.svc.cs">
-      <DependentUpon>EmailGeneratorService.svc</DependentUpon>
+    <Compile Include="MegeneratorServiceTests.cs" />
+    <Compile Include="MetricaGeneratorService.svc.cs">
+      <DependentUpon>MetricaGeneratorService.svc</DependentUpon>
     </Compile>
-    <Compile Include="EmailGeneratorServiceTests.cs" />
-    <Compile Include="IEmailGeneratorService.cs" />
+    <Compile Include="IMetricaGeneratorService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -132,9 +132,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>28430</DevelopmentServerPort>
+          <DevelopmentServerPort>33606</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:28430/</IISUrl>
+          <IISUrl>http://localhost:33606/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
