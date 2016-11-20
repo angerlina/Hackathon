@@ -12,6 +12,7 @@
 * Генерация наименования органа, выдавшим паспорт
 * Генерация номера банковской карты
 * Генерация CVV кода
+* Генерация pin-кода
 * Генерация Email
 * Генерация типа населеного пункта
 * Генерация типа улицы
@@ -69,6 +70,11 @@
 <http://{host}:{port}/CvvGeneratorService.svc/Generate/>
 
 Вывод случайного CVV-кода
+
+###Генерация pin-кода
+<http://{host}:{port}/PinGeneratorService.svc/Generate/>
+
+Вывод случайного 4-х значного pin-кода
 
 ###Генерация Email по домену
 <http://{host}:{port}/EmailGeneratorService.svc/Generate/{domain}>
