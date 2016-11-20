@@ -12,15 +12,5 @@ namespace WhomPassportIssuedGenerator
             string result = testExample.Generate();
             Assert.IsTrue(result.Length > 0);
         }
-
-        [Test]
-        public void GeneratorReturnedResultIsRandom()
-        {
-            WhomPassportIssuedGeneratorService testExample = new WhomPassportIssuedGeneratorService();
-            WhomPassportIssuedGeneratorService testExample2 = new WhomPassportIssuedGeneratorService();
-            string firstResult = testExample.Generate();
-            string secondResult = testExample2.Generate();
-            Assert.IsTrue(firstResult != secondResult);
-        }
     }
 }
